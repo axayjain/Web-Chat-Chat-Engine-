@@ -1,0 +1,579 @@
+body {
+  margin: 0rem;
+  padding: 0rem;
+}
+.mainContainer {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/divBackground.png");
+}
+.mainContainer .loginContainer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url("../img/loginBackground.jpg");
+}
+.mainContainer .loginContainer .windowContainer {
+  width: 88rem;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 60rem;
+  left: 50%;
+}
+.mainContainer .loginContainer .windowContainer .upperWindowContainer {
+  height: 33rem;
+  width: 100%;
+  position: relative;
+  background-image: url("../img/realbox.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer {
+  height: 27rem;
+  width: 100%;
+  position: relative;
+  background-image: url("../img/lowerContainerBackground.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .nameScreenContainer {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .nameScreenContainer .userNameScreen {
+  width: 16rem;
+  height: 3rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-bottom: .6rem;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .nameScreenContainer .nextScreenName {
+  width: 10rem;
+  height: 2rem;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-left: 6.8rem;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .avatarScreenContainer {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .avatarScreenContainer .leftAvatarScreen {
+  height: 100%;
+  position: relative;
+  width: 34rem;
+  float: left;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .avatarScreenContainer .leftAvatarScreen .showNameScreen {
+  width: 100%;
+  height: 3rem;
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .avatarScreenContainer .leftAvatarScreen .chooseAvatarScreen {
+  width: 100%;
+  height: 4rem;
+  margin-top: 1rem;
+  margin-left: 6.5rem;
+  font-size: 3rem;
+  padding: 1rem;
+  color: #1a1a1a;
+  clear: both;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .avatarScreenContainer .leftAvatarScreen .backNameScreen {
+  width: 5.5rem;
+  background-color: #1a1a1a;
+  height: 2.5rem;
+  font-size: 2rem;
+  color: #ecf0f1;
+  border-radius: .5rem;
+  padding: 1rem;
+  margin-left: 8rem;
+  float: left;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .avatarScreenContainer .leftAvatarScreen .nextScreenAvatar {
+  width: 5.5rem;
+  background-color: #1a1a1a;
+  height: 2.5rem;
+  font-size: 2rem;
+  color: #ecf0f1;
+  border-radius: .5rem;
+  padding: 1rem;
+  margin-right: 8rem;
+  float: right;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .avatarScreenContainer .rightAvatarScreen {
+  height: 100%;
+  position: relative;
+  width: 54rem;
+  float: right;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .avatarScreenContainer .rightAvatarScreen .upperRightAvatarScreen {
+  width: 54rem;
+  position: relative;
+  height: 13.5rem;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .avatarScreenContainer .rightAvatarScreen .upperRightAvatarScreen .avatar1Screen {
+  height: 100%;
+  width: 27rem;
+  float: left;
+  background-image: url("../img/avatarIcon1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .avatarScreenContainer .rightAvatarScreen .upperRightAvatarScreen .avatar2Screen {
+  height: 100%;
+  width: 27rem;
+  float: right;
+  background-image: url("../img/avatarIcon2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .avatarScreenContainer .rightAvatarScreen .lowerRightAvatarScreen {
+  width: 54rem;
+  position: relative;
+  height: 13.5rem;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .avatarScreenContainer .rightAvatarScreen .lowerRightAvatarScreen .avatar3Screen {
+  height: 100%;
+  width: 27rem;
+  float: left;
+  background-image: url("../img/avatarIcon3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .avatarScreenContainer .rightAvatarScreen .lowerRightAvatarScreen .avatar4Screen {
+  height: 100%;
+  width: 27rem;
+  float: right;
+  background-image: url("../img/avatarIcon4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .emailScreenContainer {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .emailScreenContainer .leftEmailContainer {
+  height: 100%;
+  width: 34rem;
+  float: left;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .emailScreenContainer .leftEmailContainer .avatarPic {
+  height: 12rem;
+  width: 12rem;
+  background-color: #1a1a1a;
+  margin-left: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 6rem;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .emailScreenContainer .leftEmailContainer .userName {
+  height: 4rem;
+  font-size: 3rem;
+  color: #1a1a1a;
+  margin-left: 11rem;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .emailScreenContainer .rightEmailContainer {
+  height: 100%;
+  width: 54rem;
+  float: right;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .emailScreenContainer .rightEmailContainer .userEmailScreen {
+  margin-top: 8rem;
+  width: 20rem;
+  height: 3.5rem;
+  margin-left: 16.5rem;
+  margin-bottom: 1rem;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .emailScreenContainer .rightEmailContainer .backAvatarScreen {
+  width: 5.5rem;
+  background-color: #1a1a1a;
+  height: 2.5rem;
+  font-size: 2rem;
+  color: #ecf0f1;
+  border-radius: .5rem;
+  padding: 1rem;
+  margin-left: 18.5rem;
+  float: left;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .emailScreenContainer .rightEmailContainer .nextScreenEmail {
+  width: 5.5rem;
+  background-color: #1a1a1a;
+  height: 2.5rem;
+  font-size: 2rem;
+  color: #ecf0f1;
+  border-radius: .5rem;
+  padding: 1rem;
+  margin-left: 26.5rem;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .finalUserInfoContainer {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .finalUserInfoContainer .leftFinalContainer {
+  height: 100%;
+  width: 54rem;
+  position: relative;
+  float: left;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .finalUserInfoContainer .leftFinalContainer .userAvatarContainer {
+  height: 100%;
+  width: 27rem;
+  float: left;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .finalUserInfoContainer .leftFinalContainer .userAvatarContainer .userAvatar {
+  height: 16rem;
+  width: 16rem;
+  border-radius: 8rem;
+  position: absolute;
+  top: 22%;
+  left: 10.5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .finalUserInfoContainer .leftFinalContainer .userNameEmailContainer {
+  height: 100%;
+  width: 27rem;
+  position: relative;
+  float: right;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .finalUserInfoContainer .leftFinalContainer .userNameEmailContainer .userNameContainer {
+  width: 100%;
+  height: 13.5rem;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .finalUserInfoContainer .leftFinalContainer .userNameEmailContainer .userNameContainer .userName {
+  height: 3rem;
+  width: 20rem;
+  position: absolute;
+  font-size: 2.5rem;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -40%);
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .finalUserInfoContainer .leftFinalContainer .userNameEmailContainer .userEmailContainer {
+  width: 100%;
+  height: 13.5rem;
+  position: relative;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .finalUserInfoContainer .leftFinalContainer .userNameEmailContainer .userEmailContainer .userEmail {
+  height: 3rem;
+  width: 20rem;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .finalUserInfoContainer .rightFinalContainer {
+  height: 100%;
+  width: 34rem;
+  position: relative;
+  float: right;
+}
+.mainContainer .loginContainer .windowContainer .lowerWindowContainer .finalUserInfoContainer .rightFinalContainer .startChat {
+  position: absolute;
+  background-color: #1a1a1a;
+  color: #ecf0f1;
+  height: 2.8rem;
+  width: 20rem;
+  padding: 1.8rem;
+  left: 15%;
+  top: 35%;
+  border-radius: 1rem;
+  font-size: 3rem;
+}
+.mainContainer .container {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.mainContainer .container .leftContainer {
+  height: 100%;
+  width: 35rem;
+  position: absolute;
+  box-sizing: border-box;
+  border-right: 1px solid gray;
+}
+.mainContainer .container .leftContainer .userInfo {
+  background-color: #95a5a6;
+  height: 5rem;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: absolute;
+}
+.mainContainer .container .leftContainer .userInfo .userPicContainer {
+  position: relative;
+  width: 5rem;
+  height: 100%;
+  border-radius: 3rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  margin-left: 1rem;
+}
+.mainContainer .container .leftContainer .userInfo .userNameContainer {
+  padding: .5rem;
+  font-size: 2.5rem;
+  margin-left: 1rem;
+  float: left;
+}
+.mainContainer .container .leftContainer .searchContacts {
+  position: absolute;
+  background-color: #bdc3c7;
+  height: 5rem;
+  top: 7rem;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  box-sizing: border-box;
+  width: 100%;
+}
+.mainContainer .container .leftContainer .searchContacts .searchBox {
+  position: absolute;
+  top: 50%;
+  width: 33rem;
+  height: 3rem;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.mainContainer .container .leftContainer .userData {
+  width: 100%;
+  height: 57.15rem;
+  display: none;
+  position: relative;
+  background-color: #ecf0f1;
+}
+.mainContainer .container .leftContainer .userData .showData {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.mainContainer .container .leftContainer .userData .showData .showAvatar {
+  width: 100%;
+  height: 10rem;
+  margin-bottom: .5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.mainContainer .container .leftContainer .userData .showData .showName {
+  width: 100%;
+  height: 5rem;
+  font-size: 2rem;
+  position: relative;
+  margin-bottom: .5rem;
+  background-color: #bdc3c7;
+}
+.mainContainer .container .leftContainer .userData .showData .showEmail {
+  width: 100%;
+  height: 5rem;
+  font-size: 2rem;
+  position: relative;
+  background-color: #bdc3c7;
+}
+.mainContainer .container .leftContainer .onlineContacts {
+  position: absolute;
+  overflow-y: auto;
+  background-color: #ffffff;
+  bottom: 0;
+  top: 12rem;
+  width: 100%;
+}
+.mainContainer .container .leftContainer .onlineContacts .contactContainer {
+  position: relative;
+  background-color: inherit;
+  box-sizing: border-box;
+  border-bottom: 1px solid gray;
+  height: 7rem;
+  width: 100%;
+}
+.mainContainer .container .leftContainer .onlineContacts .contactContainer:hover {
+  background-color: #bdc3c7;
+}
+.mainContainer .container .leftContainer .onlineContacts .contactContainer:active {
+  background-color: #2ecc71;
+}
+.mainContainer .container .leftContainer .onlineContacts .contactPic {
+  width: 5rem;
+  margin-left: 1rem;
+  margin-top: .8rem;
+  height: 5rem;
+  border: 1px solid gray;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  position: relative;
+}
+.mainContainer .container .leftContainer .onlineContacts .contactName {
+  height: 4rem;
+  font-size: 2rem;
+  float: left;
+  width: 23rem;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  position: relative;
+  line-height: 4rem;
+}
+.mainContainer .container .leftContainer .onlineContacts .counterContainer {
+  font-size: 1.3rem;
+  position: relative;
+  display: inline-block;
+  margin-top: 2.5rem;
+  border-radius: 3rem;
+  margin-right: 2rem;
+  float: right;
+}
+.mainContainer .container .rightContainer {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  left: 35rem;
+}
+.mainContainer .container .rightContainer .contactInfo {
+  background-color: #95a5a6;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 5rem;
+  position: absolute;
+  width: 100%;
+}
+.mainContainer .container .rightContainer .contactInfo .contactPicContainer {
+  position: relative;
+  width: 5rem;
+  height: 100%;
+  border-radius: 3rem;
+  background-size: contain;
+  margin-left: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+}
+.mainContainer .container .rightContainer .contactInfo .contactNameContainer {
+  position: relative;
+  padding: .5rem;
+  font-size: 2.5rem;
+  margin-left: 1rem;
+  float: left;
+}
+.mainContainer .container .rightContainer .chatMessages {
+  position: absolute;
+  top: 7rem;
+  width: 100%;
+  bottom: 5rem;
+}
+.mainContainer .container .rightContainer .chatMessages .chatMessagesContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  background-image: url(../img/chatBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mainContainer .container .rightContainer .chatMessages .chatMessagesContainer .chatTextReceiver {
+  text-align: center;
+  border-radius: .35rem;
+  padding: .25rem;
+  font-size: 2rem;
+  margin-top: .50rem;
+  margin-left: 1rem;
+  position: relative;
+  float: left;
+  clear: both;
+  background-color: #bdc3c7;
+  height: 3rem;
+}
+.mainContainer .container .rightContainer .chatMessages .chatMessagesContainer .chatTextSender {
+  text-align: center;
+  border-radius: .35rem;
+  padding: .25rem;
+  font-size: 2rem;
+  margin-top: .50rem;
+  margin-right: 1rem;
+  position: relative;
+  float: right;
+  clear: both;
+  background-color: #bdc3c7;
+  height: 3rem;
+}
+.mainContainer .container .rightContainer .chatMessages .contactProfile {
+  width: 81rem;
+  height: 100%;
+  display: none;
+}
+.mainContainer .container .rightContainer .chatMessages .contactProfile .showContactInfo {
+  height: 20rem;
+  width: 100%;
+}
+.mainContainer .container .rightContainer .chatMessages .contactProfile .showContactInfo .showAvatar {
+  width: 20rem;
+  height: 100%;
+  background-color: blue;
+  position: relative;
+  float: left;
+  clear: both;
+}
+.mainContainer .container .rightContainer .chatMessages .contactProfile .showContactInfo .showContactNameEmail {
+  width: 40rem;
+  height: 100%;
+  position: relative;
+  float: right;
+}
+.mainContainer .container .rightContainer .chatMessages .contactProfile .showContactInfo .showContactNameEmail .showName {
+  width: 100%;
+  height: 10rem;
+  position: relative;
+  background-color: green;
+}
+.mainContainer .container .rightContainer .chatMessages .contactProfile .showContactInfo .showContactNameEmail .showEmail {
+  width: 100%;
+  height: 10rem;
+  position: relative;
+  background-color: red;
+}
+.mainContainer .container .rightContainer .msgInputArea {
+  position: absolute;
+  background-color: #bdc3c7;
+  bottom: 0;
+  height: 5rem;
+  width: 100%;
+}
+.mainContainer .container .rightContainer .msgInputArea .inputMessage {
+  position: absolute;
+  height: 3rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+}

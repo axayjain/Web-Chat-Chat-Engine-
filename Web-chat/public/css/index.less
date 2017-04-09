@@ -1,0 +1,587 @@
+@mainGray: #95a5a6;
+@cloudWhite: #ecf0f1;
+@emerald: #2ecc71;
+@silverGray: #bdc3c7;
+@pureWhite: #ffffff;
+@dopeWhite: #e5e5e5;
+@darkGray: #1a1a1a;
+body {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.mainContainer {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/divBackground.png");
+    .loginContainer {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-image: url("../img/loginBackground.jpg");
+        .windowContainer {
+            width: 88rem;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            height: 60rem;
+            left: 50%;
+            .upperWindowContainer {
+                height: 33rem;
+                width: 100%;
+                position: relative;
+                background-image: url("../img/realbox.png");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .lowerWindowContainer {
+                height: 27rem;
+                width: 100%;
+                position: relative;
+                background-image: url("../img/lowerContainerBackground.jpg");
+                background-size: cover;
+                background-position: center;
+                .nameScreenContainer {
+                    height: 100%;
+                    width: 100%;
+                    position: relative;
+                    .userNameScreen {
+                        width: 16rem;
+                        height: 3rem;
+                        margin-top: 5rem;
+                        margin-left: 5rem;
+                        margin-bottom: .6rem;
+                        position: relative;
+                    }
+                    .nextScreenName {
+                        width: 10rem;
+                        height: 2rem;
+                        font-size: 2rem;
+                        padding: 1rem;
+                        margin-left: 6.8rem;
+                        background-color: @darkGray;
+                        color: @pureWhite;
+                        position: relative;
+                    }
+                }
+                .avatarScreenContainer {
+                    height: 100%;
+                    width: 100%;
+                    position: relative;
+                    .leftAvatarScreen {
+                        height: 100%;
+                        position: relative;
+                        width: 34rem;
+                        float: left;
+                        .showNameScreen {
+                            width: 100%;
+                            height: 3rem;
+                            font-size: 2.5rem;
+                            color: @darkGray;
+                            position: relative;
+                        }
+                        .chooseAvatarScreen {
+                            width: 100%;
+                            height: 4rem;
+                            margin-top: 1rem;
+                            margin-left: 6.5rem;
+                            font-size: 3rem;
+                            padding: 1rem;
+                            color: @darkGray;
+                            clear: both;
+                            position: relative;
+                        }
+                        .backNameScreen {
+                            width: 5.5rem;
+                            background-color: @darkGray;
+                            height: 2.5rem;
+                            font-size: 2rem;
+                            color: @cloudWhite;
+                            border-radius: .5rem;
+                            padding: 1rem;
+                            margin-left: 8rem;
+                            float: left;
+                            position: relative;
+                        }
+                        .nextScreenAvatar {
+                            width: 5.5rem;
+                            background-color: @darkGray;
+                            height: 2.5rem;
+                            font-size: 2rem;
+                            color: @cloudWhite;
+                            border-radius: .5rem;
+                            padding: 1rem;
+                            margin-right: 8rem;
+                            float: right;
+                            position: relative;
+                        }
+                    }
+                    .rightAvatarScreen {
+                        height: 100%;
+                        position: relative;
+                        width: 54rem;
+                        float: right;
+                        .upperRightAvatarScreen {
+                            width: 54rem;
+                            position: relative;
+                            height: 13.5rem;
+                            .avatar1Screen {
+                                height: 100%;
+                                width: 27rem;
+                                float: left;
+                                background-image: url("../img/avatarIcon1.png");
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                background-position: center;
+                            }
+                            .avatar2Screen {
+                                height: 100%;
+                                width: 27rem;
+                                float: right;
+                                background-image: url("../img/avatarIcon2.png");
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                background-position: center;
+                            }
+                        }
+                        .lowerRightAvatarScreen {
+                            width: 54rem;
+                            position: relative;
+                            height: 13.5rem;
+                            .avatar3Screen {
+                                height: 100%;
+                                width: 27rem;
+                                float: left;
+                                background-image: url("../img/avatarIcon3.png");
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                background-position: center;
+                            }
+                            .avatar4Screen {
+                                height: 100%;
+                                width: 27rem;
+                                float: right;
+                                background-image: url("../img/avatarIcon4.png");
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                background-position: center;
+                            }
+                        }
+                    }
+                }
+                .emailScreenContainer {
+                    height: 100%;
+                    width: 100%;
+                    position: relative;
+                    .leftEmailContainer {
+                        height: 100%;
+                        width: 34rem;
+                        float: left;
+                        position: relative;
+                        .avatarPic {
+                            height: 12rem;
+                            width: 12rem;
+                            background-color: @darkGray;
+                            margin-left: 10rem;
+                            margin-top: 2rem;
+                            margin-bottom: 2rem;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            border-radius: 6rem;
+                        }
+                        .userName {
+                            height: 4rem;
+                            font-size: 3rem;
+                            color: @darkGray;
+                            margin-left: 11rem;
+                        }
+                    }
+                    .rightEmailContainer {
+                        height: 100%;
+                        width: 54rem;
+                        float: right;
+                        position: relative;
+                        .userEmailScreen {
+                            margin-top: 8rem;
+                            width: 20rem;
+                            height: 3.5rem;
+                            margin-left: 16.5rem;
+                            margin-bottom: 1rem;
+                        }
+                        .backAvatarScreen {
+                            width: 5.5rem;
+                            background-color: @darkGray;
+                            height: 2.5rem;
+                            font-size: 2rem;
+                            color: @cloudWhite;
+                            border-radius: .5rem;
+                            padding: 1rem;
+                            margin-left: 18.5rem;
+                            float: left;
+                            position: relative;
+                        }
+                        .nextScreenEmail {
+                            width: 5.5rem;
+                            background-color: @darkGray;
+                            height: 2.5rem;
+                            font-size: 2rem;
+                            color: @cloudWhite;
+                            border-radius: .5rem;
+                            padding: 1rem;
+                            margin-left: 26.5rem;
+                        }
+                    }
+                }
+                .finalUserInfoContainer {
+                    height: 100%;
+                    width: 100%;
+                    position: relative;
+                    .leftFinalContainer {
+                        height: 100%;
+                        width: 54rem;
+                        position: relative;
+                        float: left;
+                        .userAvatarContainer {
+                            height: 100%;
+                            width: 27rem;
+                            float: left;
+                            .userAvatar {
+                                height: 16rem;
+                                width: 16rem;
+                                border-radius: 8rem;
+                                position: absolute;
+                                top: 22%;
+                                left: 10.5%;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                background-position: center;
+                            }
+                        }
+                        .userNameEmailContainer {
+                            height: 100%;
+                            width: 27rem;
+                            position: relative;
+                            float: right;
+                            .userNameContainer {
+                                width: 100%;
+                                height: 13.5rem;
+                                position: relative;
+                                .userName {
+                                    height: 3rem;
+                                    width: 20rem;
+                                    position: absolute;
+                                    font-size: 2.5rem;
+                                    left: 50%;
+                                    top: 60%;
+                                    transform: translate(-50%, -40%);
+                                }
+                            }
+                            .userEmailContainer {
+                                width: 100%;
+                                height: 13.5rem;
+                                position: relative;
+                                .userEmail {
+                                    height: 3rem;
+                                    width: 20rem;
+                                    font-size: 2.5rem;
+                                    position: absolute;
+                                    left: 50%;
+                                    top: 20%;
+                                    transform: translate(-50%, -50%);
+                                }
+                            }
+                        }
+                    }
+                    .rightFinalContainer {
+                        height: 100%;
+                        width: 34rem;
+                        position: relative;
+                        float: right;
+                        .startChat {
+                            position: absolute;
+                            background-color: @darkGray;
+                            color: @cloudWhite;
+                            height: 2.8rem;
+                            width: 20rem;
+                            padding: 1.8rem;
+                            left: 15%;
+                            top: 35%;
+                            border-radius: 1rem;
+                            font-size: 3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .container {
+        height: 100%;
+        width: 100%;
+        display: none;
+        .leftContainer {
+            height: 100%;
+            width: 35rem;
+            position: absolute;
+            box-sizing: border-box;
+            border-right: 1px solid gray;
+            .userInfo {
+                background-color: #95a5a6;
+                height: 5rem;
+                width: 100%;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                position: absolute;
+                .userPicContainer {
+                    position: relative;
+                    width: 5rem;
+                    height: 100%;
+                    border-radius: 3rem;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    float: left;
+                    margin-left: 1rem;
+                }
+                .userNameContainer {
+                    padding: .5rem;
+                    font-size: 2.5rem;
+                    margin-left: 1rem;
+                    float: left;
+                }
+            }
+            .searchContacts {
+                position: absolute;
+                background-color: #bdc3c7;
+                height: 5rem;
+                top: 7rem;
+                border-bottom: 1px solid gray;
+                border-top: 1px solid gray;
+                box-sizing: border-box;
+                width: 100%;
+                .searchBox {
+                    position: absolute;
+                    top: 50%;
+                    width: 33rem;
+                    height: 3rem;
+                    transform: translate(-50%, -50%);
+                    left: 50%;
+                }
+            }
+            .userData {
+                width: 100%;
+                height: 57.15rem;
+                display: none;
+                position: relative;
+                background-color: @cloudWhite;
+                .showData {
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    .showAvatar {
+                        width: 100%;
+                        height: 10rem;
+                        margin-bottom: .5rem;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: center;
+                    }
+                    .showName {
+                        width: 100%;
+                        height: 5rem;
+                        font-size: 2rem;
+                        position: relative;
+                        margin-bottom: .5rem;
+                        background-color: @silverGray;
+                    }
+                    .showEmail {
+                        width: 100%;
+                        height: 5rem;
+                        font-size: 2rem;
+                        position: relative;
+                        background-color: @silverGray;
+                    }
+                }
+            }
+            .onlineContacts {
+                position: absolute;
+                overflow-y: auto;
+                background-color: @pureWhite;
+                bottom: 0;
+                top: 12rem;
+                width: 100%;
+                .contactContainer {
+                    position: relative;
+                    background-color: inherit;
+                    box-sizing: border-box;
+                    border-bottom: 1px solid gray;
+                    height: 7rem;
+                    width: 100%;
+                }
+                .contactContainer:hover {
+                    background-color: @silverGray;
+                }
+                .contactContainer:active {
+                    background-color: @emerald;
+                }
+                .contactPic {
+                    width: 5rem;
+                    margin-left: 1rem;
+                    margin-top: .8rem;
+                    height: 5rem;
+                    border: 1px solid gray;
+                    border-radius: 50%;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    float: left;
+                    position: relative;
+                }
+                .contactName {
+                    height: 4rem;
+                    font-size: 2rem;
+                    float: left;
+                    width: 23rem;
+                    margin-left: 1rem;
+                    margin-top: 1.5rem;
+                    position: relative;
+                    line-height: 4rem;
+                }
+                .counterContainer {
+                    font-size: 1.3rem;
+                    position: relative;
+                    display: inline-block;
+                    margin-top: 2.5rem;
+                    border-radius: 3rem;
+                    margin-right: 2rem;
+                    float: right;
+                }
+            }
+        }
+        .rightContainer {
+            position: absolute;
+            height: 100%;
+            right: 0;
+            left: 35rem;
+            .contactInfo {
+                background-color: #95a5a6;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                height: 5rem;
+                position: absolute;
+                width: 100%;
+                .contactPicContainer {
+                    position: relative;
+                    width: 5rem;
+                    height: 100%;
+                    border-radius: 3rem;
+                    background-size: contain;
+                    margin-left: 2rem;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    float: left;
+                }
+                .contactNameContainer {
+                    position: relative;
+                    padding: .5rem;
+                    font-size: 2.5rem;
+                    margin-left: 1rem;
+                    float: left;
+                }
+            }
+            .chatMessages {
+                position: absolute;
+                top: 7rem;
+                width: 100%;
+                bottom: 5rem;
+                .chatMessagesContainer {
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    overflow-y: auto;
+                    background-image: url(../img/chatBackground.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    .chatTextReceiver {
+                        text-align: center;
+                        border-radius: .35rem;
+                        padding: .25rem;
+                        font-size: 2rem;
+                        margin-top: .50rem;
+                        margin-left: 1rem;
+                        position: relative;
+                        float: left;
+                        clear: both;
+                        background-color: @silverGray;
+                        height: 3rem;
+                    }
+                    .chatTextSender {
+                        text-align: center;
+                        border-radius: .35rem;
+                        padding: .25rem;
+                        font-size: 2rem;
+                        margin-top: .50rem;
+                        margin-right: 1rem;
+                        position: relative;
+                        float: right;
+                        clear: both;
+                        background-color: @silverGray;
+                        height: 3rem;
+                    }
+                }
+                .contactProfile {
+                    width: 81rem;
+                    height: 100%;
+                    display: none;
+                    .showContactInfo {
+                        height: 20rem;
+                        width: 100%;
+                        .showAvatar {
+                            width: 20rem;
+                            height: 100%;
+                            background-color: blue;
+                            position: relative;
+                            float: left;
+                            clear: both;
+                        }
+                        .showContactNameEmail {
+                            width: 40rem;
+                            height: 100%;
+                            position: relative;
+                            float: right;
+                            .showName {
+                                width: 100%;
+                                height: 10rem;
+                                position: relative;
+                                background-color: green;
+                            }
+                            .showEmail {
+                                width: 100%;
+                                height: 10rem;
+                                position: relative;
+                                background-color: red;
+                            }
+                        }
+                    }
+                }
+            }
+            .msgInputArea {
+                position: absolute;
+                background-color: #bdc3c7;
+                bottom: 0;
+                height: 5rem;
+                width: 100%;
+                .inputMessage {
+                    position: absolute;
+                    height: 3rem;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 95%;
+                }
+            }
+        }
+    }
+}

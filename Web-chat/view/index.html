@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <title class="titleName">Web Chat</title>
+        <link rel="stylesheet" type="text/css" href="css/screen.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+        <div class="mainContainer">
+            <div class="loginContainer">
+                <div class="windowContainer">
+                    <div class="upperWindowContainer">
+                    </div>
+                    <div class="lowerWindowContainer">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="leftContainer">
+                    <div class="userInfo">
+                        <div class="userPicContainer">
+                            
+                        </div>
+                        <div class="userNameContainer">
+                            
+                        </div>                                                
+                    </div>
+                    <div class="searchContacts">
+                        <input class="searchBox" placeholder="Enter the Name here..." type="text" />
+                    </div>
+                    <div class="userData"></div>
+                    <div class="onlineContacts">
+                        
+                    </div>
+                </div>
+                <div class="rightContainer">
+                    <div class="contactInfo">
+                        <div class="contactPicContainer">
+                            
+                        </div>
+                        <div class="contactNameContainer">
+                            
+                        </div>
+                    </div>
+                    <div class="chatMessages">
+                        <div class="contactProfile"></div>
+                        <div class="chatMessagesContainer"></div>
+                    </div>
+                    <div class="msgInputArea">
+                        <input class="inputMessage" placeholder="type here..." type="text"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+        <script src="scripts/jquery.js"></script>
+        <script src="scripts/jsrender.js"></script>
+        <script src="js/base.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
+
+
+<!--Templates starts from here-->
+<script id="onlineTemplate" type="text/x-jsrender">
+  <div class="contactContainer">
+      <div class="contactPic" style="background-image: {{>picBackground}}"></div>
+      <div data-id="{{>userId}}" data-name="{{>name}}" data-picture="{{>picBackground}}" class="contactName {{>userId}}">
+        {{>name}}
+      </div>
+      <div class="counterContainer">
+        <span class="{{>userId}}span"></span>
+      </div>
+  </div>
+</script>
+
+<script id="chatTemplate" type="text/x-jsrender">
+  <div data-message="{{>message}}" data-sender="{{>sender}}" data-receiver="{{>receiver}}" class="{{>className}}">
+      {{>message}}
+  </div>
+</script>
+
+<script id="enterNameTemplate" type="text/x-jsrender">
+  <div class="nameScreenContainer">
+      <input class="userNameScreen" type="text" placeholder="Enter your Name here..."/><br>
+      <div class="nextScreenName">Next</div>
+  </div>
+</script>
+
+<script id="enterAvatarTemplate" type="text/x-jsrender">
+  <div class="avatarScreenContainer">
+      <div class="leftAvatarScreen">
+          <div class="showNameScreen">{{>name}}</div>
+          <div class="chooseAvatarScreen">Select an Avatar</div>
+          <div class="backNameScreen">Back</div>
+          <div class="nextScreenAvatar">Next</div>
+      </div>
+      <div class="rightAvatarScreen">
+          <div class="upperRightAvatarScreen">
+              <div class="avatar1Screen"></div>
+              <div class="avatar2Screen"></div>
+          </div>
+          <div class="lowerRightAvatarScreen">
+              <div class="avatar3Screen"></div>
+              <div class="avatar4Screen"></div>
+          </div>
+      </div>
+  </div>
+</script>
+
+<script id="enterEmailTemplate" type="text/x-jsrender">
+  <div class="emailScreenContainer">
+      <div class="leftEmailContainer">
+          <div class="avatarPic" style="background-image: {{>avatarUrl}}"></div>
+          <div class="userName">{{>name}}</div>
+      </div>
+      <div class="rightEmailContainer">
+          <input class="userEmailScreen" type="text" placeholder="Enter your E-mail Id here..."/><br>
+          <div class="backAvatarScreen">Back</div>
+          <div class="nextScreenEmail">Finish</div>
+      </div>
+  </div>
+</script>
+
+<script id="finalScreenTemplate" type="text/x-jsrender">
+  <div class="finalUserInfoContainer">
+      <div class="leftFinalContainer">
+          <div class="userAvatarContainer">
+              <div class="userAvatar" style="background-image: {{>avatarUrl}}"></div>
+          </div>
+          <div class="userNameEmailContainer">
+              <div class="userNameContainer">
+                  <div class="userName">Name: {{>name}}</div>
+              </div>
+              <div class="userEmailContainer">
+                  <div class="userEmail">Email: {{>email}}</div>
+              </div>
+          </div>
+      </div>
+      <div class="rightFinalContainer">
+          <div class="startChat">Start Chat</div>
+      </div>
+  </div>
+</script>
+
+<script id="showUserDataTemplate" type="text/x-jsrender">
+  <div class="showData">
+      <div class="showAvatar" style="background-image: {{>avatarUrl}}"></div>
+      <div class="showName">Name: {{>name}}</div>
+      <div class="showEmail">Email: {{>email}}</div>
+  </div>
+</script>
+
+<script id="showContactDataTemplate" type="text/x-jsrender">
+  <div class="showContactInfo">
+      <div class="showAvatar" style="background-image: {{>avatarUrl}}"></div>
+      <div class="showContactNameEmail">
+          <div class="showName">Name: {{>name}}</div>
+          <div class="showEmail">Email: {{>email}}</div>
+      </div>
+  </div>
+</script>
